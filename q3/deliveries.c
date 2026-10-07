@@ -69,7 +69,9 @@ int main()
     printf("Average distance: %.2f km\n", average);
     printf("Longest route: %d km\n", longest);
     printf("Routes above %d km: %d\n", limit, count);
-    printf("\nRecursive sum: %d km\n", r_total);   
+    printf("\nRecursive sum: %d km\n", r_total);  
+    
+    return 0;
 }
 
 int find_total(int arr[], int num) {
